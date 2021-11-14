@@ -1,0 +1,107 @@
+DatawithBMIRange&BMICategory: [
+  {
+    "Gender": "Male",
+    "HeightCm": 171,
+    "WeightKg": 96,
+    "BMIRange": 32.83061454806607,
+    "BMICategory": "Normal weight"
+  },
+  {
+    "Gender": "Male",
+    "HeightCm": 161,
+    "WeightKg": 85,
+    "BMIRange": 32.79194475521777,
+    "BMICategory": "Normal weight"
+  },
+  {
+    "Gender": "Male",
+    "HeightCm": 180,
+    "WeightKg": 77,
+    "BMIRange": 23.76543209876543,
+    "BMICategory": "Normal weight"
+  },
+  {
+    "Gender": "Female",
+    "HeightCm": 166,
+    "WeightKg": 62,
+    "BMIRange": 22.49963710262738,
+    "BMICategory": "Normal weight"
+  },
+  {
+    "Gender": "Female",
+    "HeightCm": 150,
+    "WeightKg": 70,
+    "BMIRange": 31.11111111111111,
+    "BMICategory": "Normal weight"
+  },
+  {
+    "Gender": "Female",
+    "HeightCm": 167,
+    "WeightKg": 82,
+    "BMIRange": 29.402273297715947,
+    "BMICategory": "Normal weight"
+  },
+  {
+    "Gender": "Female",
+    "HeightCm": 180,
+    "WeightKg": 42,
+    "BMIRange": 12.962962962962962,
+    "BMICategory": "Underweight"
+  }
+]
+#GroupByBMICategory the above data 
+GroupByBMICategory: {
+  "Normal weight": [
+    {
+      "Gender": "Male",
+      "HeightCm": 171,
+      "WeightKg": 96,
+      "BMIRange": 32.83061454806607,
+      "BMICategory": "Normal weight"
+    },
+    {
+      "Gender": "Male",
+      "HeightCm": 161,
+      "WeightKg": 85,
+      "BMIRange": 32.79194475521777,
+      "BMICategory": "Normal weight"
+    },
+    {
+      "Gender": "Male",
+      "HeightCm": 180,
+      "WeightKg": 77,
+      "BMIRange": 23.76543209876543,
+      "BMICategory": "Normal weight"
+    },
+    {
+      "Gender": "Female",
+      "HeightCm": 166,
+      "WeightKg": 62,
+      "BMIRange": 22.49963710262738,
+      "BMICategory": "Normal weight"
+    },
+    {
+      "Gender": "Female",
+      "HeightCm": 150,
+      "WeightKg": 70,
+      "BMIRange": 31.11111111111111,
+      "BMICategory": "Normal weight"
+    },
+    {
+      "Gender": "Female",
+      "HeightCm": 167,
+      "WeightKg": 82,
+      "BMIRange": 29.402273297715947,
+      "BMICategory": "Normal weight"
+    }
+  ],
+  "Underweight": [
+    {
+      "Gender": "Female",
+      "HeightCm": 180,
+      "WeightKg": 42,
+      "BMIRange": 12.962962962962962,
+      "BMICategory": "Underweight"
+    }
+  ]
+}
